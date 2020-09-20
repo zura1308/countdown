@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="typesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="now"></h2>
+    <h2 id="newyear"></h2>
+    
+    <a>
+        <span id="days"></span>
+    </a>
+    <a>
+        <span id="hours"></span>
+    </a>
+    <a>
+        <span id="mins"></span> 
+    </a>
+    <a>
+        <span id="secs"></span>
+    </a>
+    <style>
+        h2 {
+            display: none;
+    }
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(29, 28, 28);
+    }
+        a {
+        position: relative;
+        display: inline-block;
+        padding: 40px 100px;
+        color: floralwhite;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+        a:hover{
+            background-color: rgb(41, 238, 238);
+            color: red;
+            border-radius: 100px;
+        }
+        
+    </style>
+    <script src="script.js"> </script>  
+</body>
+</html>
